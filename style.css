@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto'sans-serif;
+}
+        /*  header section */
+.material-icons{
+    color: rgb(136, 136, 136);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+}
+.header-left{
+    display:flex ;
+    align-items: center;
+}
+.header-left img{
+    width: 90px;
+    margin-left: 15px;
+}
+.header i{
+    padding: 3px 7px ;
+    cursor: pointer;
+}
+.header-search{
+    display: flex;
+    align-items:center ;
+}
+.header-search form{
+    border: 1px soild rgb(170, 170, 170);
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.header-search input{
+    width: 500px;
+    padding: 10px;
+    border-radius: none;
+    border-color: aliceblue;
+    border-style: solid;
+}
+.header-search button{
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+    cursor: pointer;
+}
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
