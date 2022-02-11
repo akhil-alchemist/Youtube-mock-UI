@@ -18,7 +18,7 @@ this repository consists of two projects
 
 ## youtube UI Screenshot
 
-<img width="597" alt="Portfolio" src="">
+<img width="597" alt="Portfolio" src="https://github.com/akhil-alchemist/Youtube-mock-UI/blob/main/images/Screenshot.png">
 
 
 ## 🛠 Skills
