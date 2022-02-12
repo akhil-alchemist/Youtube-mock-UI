@@ -3,9 +3,8 @@ Designing youtube UI using HTML , CSS &amp; javaScript
 
 # Learning basics concepts of HTML ,CSS & javaScript
 
-this repository consists of two projects 
 - Youtube mock ui 
-- main objective of this projects is to learning HTML & CSS 
+- main objective of this projects is to learn HTML & CSS basics
 
 
 ## Skills achived 
@@ -18,7 +17,7 @@ this repository consists of two projects
 
 ## youtube UI Screenshot
 
-<img width="597" alt="Portfolio" src="https://github.com/akhil-alchemist/Youtube-mock-UI/blob/main/images/Screenshot.png">
+<img width="700" alt="Portfolio" src="https://github.com/akhil-alchemist/Youtube-mock-UI/blob/main/images/Screenshot.png">
 
 
 ## 🛠 Skills
