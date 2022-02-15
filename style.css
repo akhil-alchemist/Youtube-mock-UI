@@ -14,8 +14,6 @@ body{
     color: rgb(136, 136, 136);
 }
 .head-section{
-    margin-bottom:20px;
-    height: 50px;
     width: 100%;
 
 }
@@ -75,20 +73,17 @@ body{
 
 /* main body */
 .main-body{
-
-    height: calc(100vh-70px);
     display: flex;
-    overflow: hidden;
 }
 
-
 /* sidebar */
+ 
 .sidebar{
     height: 100%;
     width: 275px;
     background-color: #fff;
     overflow-y: scroll;
-}
+} 
 .sidebar-categories{
     width: 100%;
     display: flex;
@@ -116,13 +111,16 @@ hr{
     height: 1px;
     border: none;
 }
-
+.main-content-section{
+    width: 100%;
+}
 .content-section{
     display: flex;
     flex-direction: column;
 }
 
- /*buttons */
+/* TAGSBAR BUTTON SECTION */
+
 .buttonlist{
     display: flex;
     overflow-x: scroll;
@@ -147,13 +145,11 @@ hr{
     cursor: pointer;
     align-items: center;
     color: #616161;
-    font-size: 16px;
+    font-size: small;
     text-decoration: none;
-    padding: 10px ;
+    padding: 10px;
     border: none;
-      
-      
-    }
+}
     .btn:hover {
       background: #353535;
       color: #e9e9e9;
@@ -161,20 +157,19 @@ hr{
     }
 
 /* videos section */
-.videos{
-    background-color: rgb(250, 250, 250);
+
+.video-main-container{
+    background-color: rgb(253, 253, 253);
     width: 100%;
     height: 100%;
     padding: 15px 25px;
-    border-top: 1px solid #ddd;
-    
+    border-top: 1px solid #ddd;  
 }
+
 .videos-container{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    overflow-y: scroll;
 }
 .video{
     width: 250px;
@@ -240,11 +235,25 @@ a{
     }
 }
 @media (max-width:768px){
+    .header-search input{
+        width: 300px;
+        padding: 10px;
+        border-radius: none;
+        background-color: rgb(245, 245, 245);
+        border-style: solid;
+        outline: none;
+        border: none;
+        font-size:15px;
+    }
+    .btn{
+        font-size:12px;;
+    }
+   
 /* sidebar toggle */
 .sidebar{
     display: none;
 }
 .show-sidebar{
-    display: inline;
+    display: contents;
 }
 }
